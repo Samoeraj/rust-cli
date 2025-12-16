@@ -1,5 +1,5 @@
 use clap::Parser;
-use std::io::BufRead;
+use std::io::{BufRead, Result};
 
 /// Search for a pattern in a file and display the lines that contain it.
 #[derive(Parser)]
